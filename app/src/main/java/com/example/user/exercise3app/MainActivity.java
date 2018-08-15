@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         RecyclerView list = findViewById(R.id.rv_avatar);
         List<Actor> actors = DataUtil.generateActors();
-        list.setLayoutManager(new GridLayoutManager(this, 2));
+        //list.setLayoutManager(new GridLayoutManager(this, 2));
 
         list.setAdapter(new ActorRecyclerAdapter(
                 this, actors,

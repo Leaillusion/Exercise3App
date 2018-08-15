@@ -7,6 +7,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    app:spanCount="2"
+    app:layoutManager="android.support.v7.widget.GridLayoutManager"
     tools:listitem="@layout/list_item_actor" />
 
     <!--app:layoutManager="android.support.v7.widget.GridLayoutManager"-->
